@@ -1,0 +1,16 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    video:
+        label: VideoID
+        type: text
+        searchable: true
+        sortable: true
+    id:
+        label: CoverID
+        type: number
+        searchable: true
+        sortable: true

@@ -1,0 +1,4 @@
+columns:
+    headline:
+        label: Headline
+        type: text

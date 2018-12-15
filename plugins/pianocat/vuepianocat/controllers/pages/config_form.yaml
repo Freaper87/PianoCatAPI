@@ -1,0 +1,10 @@
+name: Pages
+form: $/pianocat/vuepianocat/models/home/fields.yaml
+modelClass: Pianocat\Vuepianocat\Models\Home
+defaultRedirect: pianocat/vuepianocat/pages
+create:
+    redirect: 'pianocat/vuepianocat/pages/update/:id'
+    redirectClose: pianocat/vuepianocat/pages
+update:
+    redirect: pianocat/vuepianocat/pages
+    redirectClose: pianocat/vuepianocat/pages

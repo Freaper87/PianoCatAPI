@@ -1,0 +1,12 @@
+list: $/pianocat/vuepianocat/models/patrons/columns.yaml
+modelClass: Pianocat\Vuepianocat\Models\Patrons
+title: Patrons
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pianocat/vuepianocat/patrons/update/:id'

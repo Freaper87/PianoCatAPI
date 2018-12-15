@@ -1,0 +1,10 @@
+name: Covers
+form: $/pianocat/vuepianocat/models/cover/fields.yaml
+modelClass: Pianocat\Vuepianocat\Models\Cover
+defaultRedirect: pianocat/vuepianocat/covers
+create:
+    redirect: 'pianocat/vuepianocat/covers/update/:id'
+    redirectClose: pianocat/vuepianocat/covers
+update:
+    redirect: pianocat/vuepianocat/covers
+    redirectClose: pianocat/vuepianocat/covers

@@ -1,0 +1,10 @@
+name: Patrons
+form: $/pianocat/vuepianocat/models/patrons/fields.yaml
+modelClass: Pianocat\Vuepianocat\Models\Patrons
+defaultRedirect: pianocat/vuepianocat/patrons
+create:
+    redirect: 'pianocat/vuepianocat/patrons/update/:id'
+    redirectClose: pianocat/vuepianocat/patrons
+update:
+    redirect: pianocat/vuepianocat/patrons
+    redirectClose: pianocat/vuepianocat/patrons

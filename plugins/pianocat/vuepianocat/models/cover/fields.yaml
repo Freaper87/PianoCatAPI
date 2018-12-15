@@ -1,0 +1,59 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    subtitle:
+        label: Subtitle
+        span: auto
+        type: text
+tabs:
+    fields:
+        description:
+            label: Description
+            size: ''
+            span: full
+            type: richeditor
+            tab: Content
+        video:
+            label: VideoID
+            span: auto
+            type: text
+            tab: Content
+        sheetpreview:
+            label: 'Sheet Preview'
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Content
+        sheetpdf:
+            label: 'Sheet PDF'
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Content
+        metatitle:
+            label: 'Meta Title'
+            span: auto
+            type: text
+            tab: SEO
+        metadescription:
+            label: 'Meta Description'
+            span: auto
+            type: text
+            tab: SEO

@@ -1,0 +1,20 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pianocat_vuepianocat_covers'
+    - builder_table_create_pianocat_vuepianocat_covers.php
+1.0.3:
+    - 'Updated table pianocat_vuepianocat_covers'
+    - builder_table_update_pianocat_vuepianocat_covers.php
+1.0.4:
+    - 'Created table pianocat_vuepianocat_home'
+    - builder_table_create_pianocat_vuepianocat_home.php
+1.0.5:
+    - 'Updated table pianocat_vuepianocat_home'
+    - builder_table_update_pianocat_vuepianocat_home.php
+1.0.6:
+    - 'Created table pianocat_vuepianocat_patrons'
+    - builder_table_create_pianocat_vuepianocat_patrons.php
+1.0.7:
+    - 'Updated table pianocat_vuepianocat_patrons'
+    - builder_table_update_pianocat_vuepianocat_patrons.php

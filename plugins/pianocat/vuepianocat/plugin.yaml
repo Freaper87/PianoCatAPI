@@ -1,0 +1,19 @@
+plugin:
+    name: 'pianocat.vuepianocat::lang.plugin.name'
+    description: 'pianocat.vuepianocat::lang.plugin.description'
+    author: PianoCat
+    icon: oc-icon-music
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Covers
+        url: pianocat/vuepianocat/covers
+        icon: icon-music
+    main-menu-item2:
+        label: Pages
+        url: pianocat/vuepianocat/pages
+        icon: icon-life-ring
+    main-menu-item3:
+        label: Patrons
+        url: pianocat/vuepianocat/patrons
+        icon: icon-heart

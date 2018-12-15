@@ -1,0 +1,23 @@
+fields:
+    headline:
+        label: Headline
+        span: auto
+        type: text
+    picture:
+        label: Picture
+        mode: file
+        span: auto
+        type: mediafinder
+    description:
+        label: Description
+        size: ''
+        span: full
+        type: richeditor
+    metatitle:
+        label: 'Meta Title'
+        span: auto
+        type: text
+    metadescription:
+        label: 'Meta Description'
+        span: auto
+        type: text
